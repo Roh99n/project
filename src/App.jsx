@@ -46,7 +46,7 @@ const Navbar = () => {
               <FaMapMarkerAlt className="mr-1" /> Location
             </a>
             <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300 shadow-md hover:shadow-lg flex items-center">
-              <FaPhone className="mr-2" /> (+977) 9845810557
+              <FaPhone className="mr-2" /> (+977) 9765820901
             </button>
           </div>
 
@@ -82,7 +82,7 @@ const Navbar = () => {
                 <FaMapMarkerAlt className="mr-2" /> Location
               </a>
               <button className="w-full bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300 mt-4 shadow-md flex items-center justify-center">
-                <FaPhone className="mr-2" /> (+977) 9845810557
+                <FaPhone className="mr-2" /> (+977) 9765820901
               </button>
             </div>
           </div>
@@ -442,7 +442,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/nitadrycleaners/" className="text-gray-400 hover:text-white transition duration-300 hover:scale-110">
                 <FaInstagram size={20} />
               </a>
-              <a href="" className="text-gray-400 hover:text-white transition duration-300 hover:scale-110">
+              <a href="https://wa.me/9779765820901" className="text-gray-400 hover:text-white transition duration-300 hover:scale-110">
                 <FaWhatsapp size={20} />
               </a>
             </div>
@@ -489,7 +489,7 @@ const Footer = () => {
                   <FaPhone className="text-blue-400" />
                 </div>
                 <div>
-                  <p className="text-gray-400 group-hover:text-white transition duration-300">(+977) 9845810557</p>
+                  <p className="text-gray-400 group-hover:text-white transition duration-300">(+977) 9765820901</p>
                   <p className="text-gray-400 group-hover:text-white transition duration-300">24/7 Emergency Service</p>
                 </div>
               </li>
@@ -620,7 +620,7 @@ function App() {
             
             {/* Only WhatsApp Button (removed the blue Book Now button) */}
             <a
-              href={`https://wa.me/9779845810557?text=${encodeURIComponent(service.whatsappMessage)}`}
+              href={`https://wa.me/9779765820901?text=${encodeURIComponent(service.whatsappMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg font-medium flex items-center justify-center transition duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-md hover:shadow-lg"
@@ -692,7 +692,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-800 mb-1">Call Us</h4>
-                      <p className="text-gray-600">(+977) 9845810557</p>
+                      <p className="text-gray-600">(+977) 9765820901</p>
                       <p className="text-gray-500 text-sm">24/7 Emergency Service</p>
                     </div>
                   </div>
@@ -936,7 +936,7 @@ function App() {
               <FaRocket className="mr-2" /> Get Free Quote
             </a>
             <a
-              href="tel:+9779845810557"
+              href="tel:+9779765820901"
               className="bg-transparent border-2 border-white text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center"
             >
               <FaPhone className="mr-2" /> Call Now
